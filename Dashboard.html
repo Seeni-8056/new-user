@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+    <meta charset="utf-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    <title>Dashboard page</title>
+    <link rel="stylesheet" type="text/css" href="dashboard.css">  
+    <link rel="icon" type="image/x-icon" href="Images/task2.jpg"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css">         
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/7f5885edf7.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body style="background-color: white;">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href=" C:\Users\admin\Desktop\Login website\Clientprofile.html">Clients</a>
+        <a href="C:\Users\admin\Desktop\Login website\ideaviewpage.html">Ideas</a>
+        <a href="#">Rules</a>
+        <a href="#">Signout</a>
+    </div>
+
+    <div class="container-fluid bg-primary">
+        <div class="row">
+            <div class="col-6 ">
+                <h3><i class="fa-solid fa-graduation-cap"></i> SHANGAI
+                    CONSERVATORY OF MUSIC</h3>
+            </div>
+            <div class="col-6 text-end">
+                info@anstek.com
+                <a href="C:\Users\admin\Desktop\Login website\Login page.html">
+                    <input type="submit" value="Signed Out" style="line-height: 30px;">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "150px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    <div class="container">
+        <div class="row">
+            <div class="col-8">
+                <h1 style="text-align: center; padding-left: 380px;"> OUR CLIENTS</h1>
+            </div>
+            <div class="col-4 text-center">
+                <a href="C:\Users\admin\Desktop\Login website\Addpage.html">
+                    <button type="button" class="btn btn-primary" style="width: 100px; font-size: 20px;">ADD</button>
+                </a>
+            </div>
+        </div>
+        <div class="container p-5">
+            <div class="row col-md-12 ">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading text-center">
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name" id="firstName" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Company" id="LastName" />
+                                </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row col-md-12 ">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading text-center">
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name" id="firstName" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Company" id="LastName" />
+                                </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-black text-muted">
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        <i class="fas fa-gem me-3 text-secondary"></i> SHANGAI CONSERVATORY OF MUSIC
+                    </h6>
+                    <p>
+                        Here you can use rows and columns to organize your footer content. Lorem ipsum
+                        dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Products
+                    </h6>
+                    <p>
+                        <a href="" class="text-reset">Angular</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-reset">React</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Vue</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Laravel</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                        Useful links
+                    </h6>
+                    <p>
+                        <a href="#!" class="text-reset">Pricing</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Settings</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Orders</a>
+                    </p>
+                    <p>
+                        <a href="#!" class="text-reset">Help</a>
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                    <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+                    <p>
+                        <i class="fas fa-envelope me-3 text-secondary"></i>
+                        info@example.com
+                    </p>
+                    <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+                    <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+        © Vdrivesolutions
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Vdrivesolutions</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+
+</html>
